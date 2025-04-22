@@ -1,0 +1,292 @@
+/* Animations for Section Headers */
+
+/* Fade In Up Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Slide In From Left Animation */
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Slide In From Right Animation */
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Scale Up Animation */
+@keyframes scaleUp {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Rotate In Animation */
+@keyframes rotateIn {
+    from {
+        opacity: 0;
+        transform: rotate(-10deg) scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: rotate(0) scale(1);
+    }
+}
+
+/* Bounce In Animation */
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    50% {
+        opacity: 0.8;
+        transform: scale(1.1);
+    }
+    70% {
+        opacity: 0.9;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Apply animations to section headers */
+.section-header {
+    opacity: 0;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Home section animation */
+#home .section-header {
+    animation-name: fadeInUp;
+    animation-delay: 0.2s;
+}
+
+/* Projects section animation */
+#projects .section-header {
+    animation-name: slideInLeft;
+    animation-delay: 0.2s;
+}
+
+/* Experience section animation */
+#experience .section-header {
+    animation-name: slideInRight;
+    animation-delay: 0.2s;
+}
+
+/* Awards section animation */
+#awards .section-header {
+    animation-name: scaleUp;
+    animation-delay: 0.2s;
+}
+
+/* Contact section animation */
+#contact .section-header {
+    animation-name: rotateIn;
+    animation-delay: 0.2s;
+}
+
+/* Animation for section titles */
+.section-header h1 {
+    opacity: 0;
+    animation: fadeInUp 0.8s forwards;
+    animation-delay: 0.4s;
+}
+
+/* Animation for section subtitles */
+.section-header h2 {
+    opacity: 0;
+    animation: fadeInUp 0.8s forwards;
+    animation-delay: 0.6s;
+}
+
+/* Animation for section descriptions */
+.section-header p {
+    opacity: 0;
+    animation: fadeInUp 0.8s forwards;
+    animation-delay: 0.8s;
+}
+
+/* Animation for project cards */
+.project-card {
+    opacity: 0;
+    animation: scaleUp 0.6s forwards;
+}
+
+.project-card:nth-child(1) { animation-delay: 0.3s; }
+.project-card:nth-child(2) { animation-delay: 0.5s; }
+.project-card:nth-child(3) { animation-delay: 0.7s; }
+.project-card:nth-child(4) { animation-delay: 0.9s; }
+.project-card:nth-child(5) { animation-delay: 1.1s; }
+.project-card:nth-child(6) { animation-delay: 1.3s; }
+
+/* Animation for experience cards */
+.experience-card {
+    opacity: 0;
+    animation: slideInLeft 0.6s forwards;
+}
+
+.experience-card:nth-child(1) { animation-delay: 0.3s; }
+.experience-card:nth-child(2) { animation-delay: 0.5s; }
+.experience-card:nth-child(3) { animation-delay: 0.7s; }
+
+/* Animation for award cards */
+.award-card {
+    opacity: 0;
+    animation: bounceIn 0.8s forwards;
+}
+
+.award-card:nth-child(1) { animation-delay: 0.3s; }
+.award-card:nth-child(2) { animation-delay: 0.5s; }
+.award-card:nth-child(3) { animation-delay: 0.7s; }
+
+/* Animation for contact form */
+.contact-form {
+    opacity: 0;
+    animation: fadeInUp 0.8s forwards;
+    animation-delay: 0.4s;
+}
+
+/* Animation for form groups */
+.form-group {
+    opacity: 0;
+    animation: fadeInUp 0.6s forwards;
+}
+
+.form-group:nth-child(1) { animation-delay: 0.5s; }
+.form-group:nth-child(2) { animation-delay: 0.7s; }
+.form-group:nth-child(3) { animation-delay: 0.9s; }
+.form-group:nth-child(4) { animation-delay: 1.1s; }
+.form-group:nth-child(5) { animation-delay: 1.3s; }
+
+/* Animation for submit button */
+.submit-btn {
+    opacity: 0;
+    animation: scaleUp 0.6s forwards;
+    animation-delay: 1.5s;
+}
+
+/* Scroll-triggered animations */
+.section-header.animate {
+    animation: none;
+    opacity: 1;
+}
+
+.section-header.animate h1 {
+    animation: fadeInUp 0.8s forwards;
+    animation-delay: 0.2s;
+}
+
+.section-header.animate h2 {
+    animation: fadeInUp 0.8s forwards;
+    animation-delay: 0.4s;
+}
+
+.section-header.animate p {
+    animation: fadeInUp 0.8s forwards;
+    animation-delay: 0.6s;
+}
+
+/* Home section scroll animation */
+#home .section-header.animate {
+    animation: fadeInUp 0.8s forwards;
+}
+
+/* Projects section scroll animation */
+#projects .section-header.animate {
+    animation: slideInLeft 0.8s forwards;
+}
+
+/* Experience section scroll animation */
+#experience .section-header.animate {
+    animation: slideInRight 0.8s forwards;
+}
+
+/* Awards section scroll animation */
+#awards .section-header.animate {
+    animation: scaleUp 0.8s forwards;
+}
+
+/* Contact section scroll animation */
+#contact .section-header.animate {
+    animation: rotateIn 0.8s forwards;
+}
+
+/* Project cards scroll animation */
+.project-card.animate {
+    animation: scaleUp 0.6s forwards;
+}
+
+/* Experience cards scroll animation */
+.experience-card.animate {
+    animation: slideInLeft 0.6s forwards;
+}
+
+/* Award cards scroll animation */
+.award-card.animate {
+    animation: bounceIn 0.8s forwards;
+}
+
+/* Form groups scroll animation */
+.form-group.animate {
+    animation: fadeInUp 0.6s forwards;
+}
+
+/* Submit button scroll animation */
+.submit-btn.animate {
+    animation: scaleUp 0.6s forwards;
+}
+
+/* Staggered animations for cards */
+.project-card:nth-child(1).animate { animation-delay: 0.1s; }
+.project-card:nth-child(2).animate { animation-delay: 0.2s; }
+.project-card:nth-child(3).animate { animation-delay: 0.3s; }
+.project-card:nth-child(4).animate { animation-delay: 0.4s; }
+.project-card:nth-child(5).animate { animation-delay: 0.5s; }
+.project-card:nth-child(6).animate { animation-delay: 0.6s; }
+
+.experience-card:nth-child(1).animate { animation-delay: 0.1s; }
+.experience-card:nth-child(2).animate { animation-delay: 0.2s; }
+.experience-card:nth-child(3).animate { animation-delay: 0.3s; }
+
+.award-card:nth-child(1).animate { animation-delay: 0.1s; }
+.award-card:nth-child(2).animate { animation-delay: 0.2s; }
+.award-card:nth-child(3).animate { animation-delay: 0.3s; }
+
+.form-group:nth-child(1).animate { animation-delay: 0.1s; }
+.form-group:nth-child(2).animate { animation-delay: 0.2s; }
+.form-group:nth-child(3).animate { animation-delay: 0.3s; }
+.form-group:nth-child(4).animate { animation-delay: 0.4s; }
+.form-group:nth-child(5).animate { animation-delay: 0.5s; }
