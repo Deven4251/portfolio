@@ -3,6 +3,7 @@
     position: relative;
     overflow: hidden;
     background: transparent;
+    width: 100%;
 }
 
 .experience::before {
@@ -12,7 +13,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background:
+     background:
         radial-gradient(circle at 20% 20%, rgba(9, 132, 227, 0.08) 0%, transparent 50%),
         radial-gradient(circle at 80% 80%, rgba(108, 92, 231, 0.08) 0%, transparent 50%);
     pointer-events: none;
@@ -23,26 +24,38 @@
     flex-direction: column;
     gap: 2.5rem;
     margin-top: 3rem;
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 2rem; /* Optional spacing on sides */
     position: relative;
     z-index: 1;
 }
 
+
 .experience-card {
     background: var(--card-bg);
     border-radius: var(--border-radius);
-    padding: 2.5rem;
+    padding: 2.5rem 3rem;
     box-shadow: var(--card-shadow);
     transition: var(--transition);
     border: 1px solid var(--border);
-    width: 100%;
+    width: 90%;              /* Wider than before, but still controlled */
+    max-width: 1000px;       /* Prevents it from being *too* wide */
     display: flex;
     flex-direction: column;
     position: relative;
+
     overflow: hidden;
     backdrop-filter: blur(10px);
+    margin: 0 auto;          /* Centers the card */
+}
+
+.experience-card {
+    width: 100%;
+    max-width: 1200px; /* or 1300px if you want it longer */
+    margin: 0 auto; /* centers the card */
+    /* width: 100%; */
+    padding: 2rem;
 }
 
 .experience-card::before {
@@ -125,7 +138,6 @@
     flex-grow: 1;
     font-size: 1.1rem;
     line-height: 1.7;
-    padding-left: 1rem;
 }
 
 .experience-responsibilities {
@@ -133,6 +145,7 @@
     padding: 0;
     margin: 0;
     padding-left: 1rem;
+    text-align: left;
 }
 
 .experience-responsibilities li {
@@ -250,3 +263,5 @@
         padding: 0.35rem 0.7rem;
     }
 }
+
+
