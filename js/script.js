@@ -7,30 +7,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Form handling
-const contactForm = document.getElementById('contactForm');
-if (contactForm) {
-    contactForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-
-        const formData = {
-            name: document.getElementById('name').value,
-            email: document.getElementById('email').value,
-            contact: document.getElementById('contact').value,
-            message: document.getElementById('message').value
-        };
-
-        // You can implement your form submission logic here
-        console.log('Form submitted:', formData);
-
-        // Show success message
-        alert('Thank you for your message! I will get back to you soon.');
-
-        // Reset form
-        contactForm.reset();
-    });
-}
-
 // Intersection Observer for fade-in animations
 const observerOptions = {
     root: null,

@@ -1,5 +1,5 @@
 // Intersection Observer for scroll animations
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Create an Intersection Observer
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
