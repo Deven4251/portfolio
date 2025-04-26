@@ -4,6 +4,15 @@
     overflow: hidden;
 }
 
+.award-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.certificate {
+    margin-top: auto; /* Pushes button to the bottom */
+}
 .awards::before {
     content: '';
     position: absolute;
