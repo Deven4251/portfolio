@@ -194,3 +194,9 @@
         font-size: 0.8rem;
     }
 }
+
+.activepr{
+    color: red;
+    font-family: algerian;
+    font-size: 25px;
+}
