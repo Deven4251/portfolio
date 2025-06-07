@@ -196,7 +196,8 @@
 }
 
 .activepr{
-    color: red;
-    font-family: algerian;
+    color: green;
+    font-style: oblique;
     font-size: 25px;
+    font-weight: bold;
 }
