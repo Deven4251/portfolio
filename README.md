@@ -6,13 +6,19 @@
 
 ## 🚀 About Me
 
+<div align="center">
+  <img src="https://img.shields.io/badge/I'm%20a%20Full%20Stack%20MERN%20Developer-36BCF7?style=for-the-badge&logo=react&logoColor=white" />
+</div>
+
+---
+
 I'm a passionate **Full Stack MERN Developer** and **B.Tech graduate in Computer Science and Engineering** with a strong foundation in software development and Data Structures & Algorithms (DSA). I specialize in creating **efficient, scalable web applications** and love solving real-world problems through technology.
 
-- 🔭 I'm currently exploring advanced React patterns, backend optimization, and cloud deployment
-- 🌱 I'm passionate about building scalable web applications
-- 👯 I'm looking to collaborate on innovative MERN stack projects
-- 💬 Ask me about React.js, Node.js, MongoDB, and full-stack development
-- 📍 Based in Gurugram, HR, India
+- 🔭 I'm currently exploring advanced React patterns, backend optimization, and cloud deployment  
+- 🌱 I'm passionate about building scalable web applications  
+- 👯 I'm looking to collaborate on innovative MERN stack projects  
+- 💬 Ask me about React.js, Node.js, MongoDB, and full-stack development  
+- 📍 Based in Gurugram, HR, India  
 
 ## 🛠️ Tech Stack
 
