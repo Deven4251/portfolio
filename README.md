@@ -100,8 +100,8 @@ I'm a passionate **Full Stack MERN Developer** and **B.Tech graduate in Computer
 ## 📈 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=radical" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=your-github-username&theme=radical" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=deven4251&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=deven4251&theme=radical" alt="GitHub Streak" />
 </div>
 
 <div align="center">
@@ -124,7 +124,7 @@ I'm a passionate **Full Stack MERN Developer** and **B.Tech graduate in Computer
   <img src="https://komarev.com/ghpvc/?username=deven4251&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views" />
 </div>
 
-<div align="center">
+<div align="center"> 
   <i>💡 "Code is like humor. When you have to explain it, it's bad." - Cory House</i>
 </div>
 
