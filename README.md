@@ -121,7 +121,7 @@ I'm a passionate **Full Stack MERN Developer** and **B.Tech graduate in Computer
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=your-github-username&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=deven4251&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views" />
 </div>
 
 <div align="center">
@@ -130,6 +130,6 @@ I'm a passionate **Full Stack MERN Developer** and **B.Tech graduate in Computer
 
 <div align="center">
   
-**⭐ From [Devendra Mishra](https://github.com/your-github-username) - Feel free to star my repositories if you find them helpful!**
+**⭐ From [Devendra Mishra](https://github.com/deven4251) - Feel free to star my repositories if you find them helpful!**
 
 </div>
