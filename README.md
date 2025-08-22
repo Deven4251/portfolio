@@ -105,7 +105,7 @@ I'm a passionate **Full Stack MERN Developer** and **B.Tech graduate in Computer
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=radical" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deven4251&layout=compact&theme=radical" alt="Top Languages" />
 </div>
 
 ## 🤝 Let's Connect!
