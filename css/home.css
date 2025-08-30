@@ -426,33 +426,30 @@
 }
 
 
-/* typerwriter */
-
-.typewriter {
-    font-size: 2rem;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid whitesmoke;
-    width: 0;
-    animation: typing 5s steps(40, end) forwards , blink 0.3s step-end infinite;
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
 
-@keyframes typing {
-    from {
-        width: 0
-    }
-
-    to {
-        width: 23ch
-    }
-
-    /* Adjust based on message length */
+/* Desktop: text left, image right */
+.hero-content {
+    flex-direction: row;
 }
 
-@keyframes blink {
-
-    50% {
-        border-color: transparent
+/* Mobile: stack vertically (text above, image below) */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
     }
 
+    .hero-image img {
+        max-width: 300px;
+        /* optional: resize image for mobile */
+        border-radius: 50%;
+        /* optional: make circular if you want */
+    }
 }

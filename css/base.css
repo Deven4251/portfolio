@@ -329,7 +329,7 @@ section::before {
     display: none;
 }
 
-/* Theme Toggle Button */
+
 .theme-toggle-container {
     position: relative;
     margin-left: 1rem;
@@ -416,8 +416,7 @@ section::before {
     color: white;
 }
 
-/* Responsive Design */
-/* Large Desktops (1440px and up) */
+
 @media (min-width: 1440px) {
     :root {
         --container-width: 1400px;

@@ -150,3 +150,25 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+
+const cards = document.querySelectorAll(".award-card");
+const modal = document.getElementById("tech-modal");
+const modalTitle = document.getElementById("modal-title");
+const modalDescription = document.getElementById("modal-description");
+
+cards.forEach(card => {
+  card.addEventListener("click", () => {
+    const title = card.querySelector(".award-title").innerText;
+    const description = card.querySelector(".award-description").innerText;
+
+    modalTitle.innerText = title;
+    modalDescription.innerText = description;
+
+    modal.classList.add("active");
+  });
+});
+
+function closeModal() {
+  modal.classList.remove("active");
+}

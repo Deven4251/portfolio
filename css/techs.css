@@ -12,7 +12,7 @@
     width: 100%;
     height: 100%;
     background: radial-gradient(circle at bottom left, rgba(16, 185, 129, 0.05), transparent 50%),
-                radial-gradient(circle at top right, rgba(59, 130, 246, 0.05), transparent 50%);
+        radial-gradient(circle at top right, rgba(59, 130, 246, 0.05), transparent 50%);
     z-index: -1;
 }
 
@@ -95,12 +95,36 @@
 }
 
 /* Tech Specific Colors */
-.techs .html i { color: #e34c26; }     /* HTML5 Orange */
-.techs .css i { color: #1572B6; }      /* CSS3 Blue */
-.techs .js i { color: #f7df1e; }       /* JavaScript Yellow */
-.techs .react i { color: #61dafb; }    /* React Cyan */
-.techs .node i { color: #3c873a; }     /* Node.js Green */
-.techs .mongo i { color: #47A248; }    /* MongoDB Green */
+.techs .html i {
+    color: #e34c26;
+}
+
+/* HTML5 Orange */
+.techs .css i {
+    color: #1572B6;
+}
+
+/* CSS3 Blue */
+.techs .js i {
+    color: #f7df1e;
+}
+
+/* JavaScript Yellow */
+.techs .react i {
+    color: #61dafb;
+}
+
+/* React Cyan */
+.techs .node i {
+    color: #3c873a;
+}
+
+/* Node.js Green */
+.techs .mongo i {
+    color: #47A248;
+}
+
+/* MongoDB Green */
 
 /* Descriptions */
 .techs .award-description {
@@ -145,12 +169,63 @@
         font-size: 0.95rem;
     }
 }
+
 /* Tech Specific Colors */
-.techs .html i { color: #e34c26; }     /* HTML5 Orange */
-.techs .css i { color: #1572B6; }      /* CSS3 Blue */
-.techs .js i { color: #f7df1e; }       /* JavaScript Yellow */
-.techs .react i { color: #61dafb; }    /* React Cyan */
-.techs .node i { color: #3c873a; }     /* Node.js Green */
-.techs .mongo i { color: #47A248; }    /* MongoDB Green */
-.techs .python i { color: #3776AB; }   /* Python Blue */
-.techs .java i { color: #f89820; }     /* Java Orange */
+.techs .html i {
+    color: #e34c26;
+}
+
+/* HTML5 Orange */
+.techs .css i {
+    color: #1572B6;
+}
+
+/* CSS3 Blue */
+.techs .js i {
+    color: #f7df1e;
+}
+
+/* JavaScript Yellow */
+.techs .react i {
+    color: #61dafb;
+}
+
+/* React Cyan */
+.techs .node i {
+    color: #3c873a;
+}
+
+/* Node.js Green */
+.techs .mongo i {
+    color: #47A248;
+}
+
+/* MongoDB Green */
+.techs .python i {
+    color: #3776AB;
+}
+
+/* Python Blue */
+.techs .java i {
+    color: #f89820;
+}
+
+/* Java Orange */
+
+
+.award-card {
+    background: #1e1e1e;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.award-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(135deg, #1e1e1e, #333);
+}
+
